@@ -21,7 +21,7 @@ import falcon
 import xmltodict
 
 # Set the shared token (must be set in the WeChat sandobox console, too)
-WECHAT_TOKEN = "wechat_token"
+WECHAT_TOKEN = "wechat_token_jgzuke"
 
 # See: https://falcon.readthedocs.io/en/stable/user/quickstart.html
 class WeChatApiResource(object):
