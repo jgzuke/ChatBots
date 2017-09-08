@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="line-bot-api-client_main" target="1.8" />
+      <module name="line-bot-api-client_test" target="1.8" />
+      <module name="line-bot-model_main" target="1.8" />
+      <module name="line-bot-model_test" target="1.8" />
+      <module name="line-bot-servlet_main" target="1.8" />
+      <module name="line-bot-servlet_test" target="1.8" />
+      <module name="line-bot-spring-boot_main" target="1.8" />
+      <module name="line-bot-spring-boot_test" target="1.8" />
+      <module name="sample-spring-boot-echo_main" target="1.8" />
+      <module name="sample-spring-boot-echo_test" target="1.8" />
+      <module name="sample-spring-boot-kitchensink_main" target="1.8" />
+      <module name="sample-spring-boot-kitchensink_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
