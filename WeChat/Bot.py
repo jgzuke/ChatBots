@@ -107,3 +107,7 @@ api = application = falcon.API()
 
 # Map a route (see: https://falcon.readthedocs.io/en/stable/api/api.html#falcon.API.add_route)
 api.add_route('/wechat', WeChatApiResource(WECHAT_TOKEN))
+
+
+
+
