@@ -41,13 +41,4 @@ public class TextMessageContent implements MessageContent {
         this.id = id;
         this.text = text;
     }
-
-    @Override
-    public String getId() {
-        return id;
-    }
-
-    public String getText() {
-        return text;
-    }
 }
