@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6433899b-4c71-4921-b4aa-256c31b8defd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Line/notes" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/annotation-processors.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
@@ -12,19 +12,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-api-client/build/libs/line-bot-api-client-1.11.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/line-bot-api-client/build/libs/line-bot-api-client-1.11.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-model/build/classes/java/main/com/linecorp/bot/model/event/MessageEvent.class" afterPath="$PROJECT_DIR$/line-bot-model/build/classes/java/main/com/linecorp/bot/model/event/MessageEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-model/build/classes/java/main/com/linecorp/bot/model/event/message/TextMessageContent.class" afterPath="$PROJECT_DIR$/line-bot-model/build/classes/java/main/com/linecorp/bot/model/event/message/TextMessageContent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-model/build/libs/line-bot-model-1.11.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/line-bot-model/build/libs/line-bot-model-1.11.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-servlet/build/libs/line-bot-servlet-1.11.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/line-bot-servlet/build/libs/line-bot-servlet-1.11.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-spring-boot/build/libs/line-bot-spring-boot-1.11.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/line-bot-spring-boot/build/libs/line-bot-spring-boot-1.11.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-api-client/build/resources/main/git.properties" afterPath="$PROJECT_DIR$/line-bot-api-client/build/resources/main/git.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-model/build/resources/main/git.properties" afterPath="$PROJECT_DIR$/line-bot-model/build/resources/main/git.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-model/src/main/java/com/linecorp/bot/model/event/MessageEvent.java" afterPath="$PROJECT_DIR$/line-bot-model/src/main/java/com/linecorp/bot/model/event/MessageEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-model/src/main/java/com/linecorp/bot/model/event/message/TextMessageContent.java" afterPath="$PROJECT_DIR$/line-bot-model/src/main/java/com/linecorp/bot/model/event/message/TextMessageContent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-servlet/build/resources/main/git.properties" afterPath="$PROJECT_DIR$/line-bot-servlet/build/resources/main/git.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-bot-spring-boot/build/resources/main/git.properties" afterPath="$PROJECT_DIR$/line-bot-spring-boot/build/resources/main/git.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-spring-boot-echo/build/resources/main/git.properties" afterPath="$PROJECT_DIR$/sample-spring-boot-echo/build/resources/main/git.properties" />
@@ -2113,7 +2106,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1399" />
+    <option name="width" value="1190" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -2293,20 +2286,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="echo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChatBots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChatBots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Line" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2661,15 +2640,15 @@
       <option name="presentableId" value="Default" />
       <updated>1504887335395</updated>
       <workItem from="1504887339581" duration="1803000" />
-      <workItem from="1504929304652" duration="1159000" />
+      <workItem from="1504929304652" duration="1393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2962000" />
+    <option name="totallyTimeSpent" value="3196000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1399" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1190" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2682,7 +2661,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2667649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.315331" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
