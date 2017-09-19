@@ -1,3 +1,0 @@
-Tutorial: https://chatbotsmagazine.com/building-chatbots-for-wechat-part-1-dba8f160349
-ngrok inspect: http://127.0.0.1:4040/inspect/http
-wechat admin panel: http://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index

@@ -22,7 +22,6 @@ import com.linecorp.bot.client.exception.GeneralLineMessagingException;
 import com.linecorp.bot.model.Multicast;
 import com.linecorp.bot.model.PushMessage;
 import com.linecorp.bot.model.ReplyMessage;
-import com.linecorp.bot.model.profile.MembersIdsResponse;
 import com.linecorp.bot.model.profile.UserProfileResponse;
 import com.linecorp.bot.model.response.BotApiResponse;
 
@@ -38,9 +37,6 @@ import retrofit2.Response;
 @AllArgsConstructor
 public class LineMessagingClientImpl implements LineMessagingClient {
     private static final ExceptionConverter EXCEPTION_CONVERTER = new ExceptionConverter();
-    private static final String ORG_TYPE_GROUP = "group"; // TODO Enum
-    private static final String ORG_TYPE_ROOM = "room";
-
     private final LineMessagingService retrofitImpl;
 
     @Override
@@ -66,30 +62,6 @@ public class LineMessagingClientImpl implements LineMessagingClient {
     @Override
     public CompletableFuture<UserProfileResponse> getProfile(final String userId) {
         return toFuture(retrofitImpl.getProfile(userId));
-    }
-
-    @Override
-    public CompletableFuture<UserProfileResponse> getGroupMemberProfile(
-            final String groupId, final String userId) {
-        return toFuture(retrofitImpl.getMemberProfile(ORG_TYPE_GROUP, groupId, userId));
-    }
-
-    @Override
-    public CompletableFuture<UserProfileResponse> getRoomMemberProfile(
-            final String roomId, final String userId) {
-        return toFuture(retrofitImpl.getMemberProfile(ORG_TYPE_ROOM, roomId, userId));
-    }
-
-    @Override
-    public CompletableFuture<MembersIdsResponse> getGroupMembersIds(
-            final String groupId, final String start) {
-        return toFuture(retrofitImpl.getMembersIds(ORG_TYPE_GROUP, groupId, start));
-    }
-
-    @Override
-    public CompletableFuture<MembersIdsResponse> getRoomMembersIds(
-            final String roomId, final String start) {
-        return toFuture(retrofitImpl.getMembersIds(ORG_TYPE_ROOM, roomId, start));
     }
 
     @Override

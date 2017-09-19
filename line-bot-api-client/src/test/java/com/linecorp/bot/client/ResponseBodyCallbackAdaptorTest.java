@@ -104,6 +104,6 @@ public class ResponseBodyCallbackAdaptorTest {
         assertThat(target).isCompletedExceptionally();
         assertThat(target.handle((ignored, e) -> e).get())
                 .isInstanceOf(GeneralLineMessagingException.class)
-                .hasMessageContaining("ResponseBodyCallbackAdaptorTest Failed");
+                .withFailMessage("ResponseBodyCallbackAdaptorTest Failed");
     }
 }
