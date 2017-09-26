@@ -11,8 +11,14 @@ import java.net.URI;
 public class SQLDatabaseEngine extends DatabaseEngine {
 	@Override
 	String search(String text) throws Exception {
-		//Write your code here
-		return null;
+		Connection connection = getConnection();
+		PreparedStatement statement = connection.prepareStatement(String.format("SELECT response FROM response_table WHERE keyword LIKE '%s'", text));
+		statement.setString(1, "vin");
+		ResultSet results = statement.executeQuery();
+		while (results.next()) {
+			return results.getString(1);
+		}
+		throw new Exception("NOT FOUND");
 	}
 	
 	
