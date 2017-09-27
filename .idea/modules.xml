@@ -3,21 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatBots.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatBots.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client.iml" group="line-bot-api-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client_main.iml" group="line-bot-api-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-api-client/line-bot-api-client_test.iml" group="line-bot-api-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-model/line-bot-model.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-model/line-bot-model.iml" group="line-bot-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-model/line-bot-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-model/line-bot-model_main.iml" group="line-bot-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-model/line-bot-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-model/line-bot-model_test.iml" group="line-bot-model" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet.iml" group="line-bot-servlet" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet_main.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet_main.iml" group="line-bot-servlet" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet_test.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-servlet/line-bot-servlet_test.iml" group="line-bot-servlet" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot.iml" group="line-bot-spring-boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot_main.iml" group="line-bot-spring-boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/line-bot-spring-boot/line-bot-spring-boot_test.iml" group="line-bot-spring-boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-spring-boot-echo/sample-spring-boot-echo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-spring-boot-echo/sample-spring-boot-echo_main.iml" group="sample-spring-boot-echo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-spring-boot-echo/sample-spring-boot-echo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-spring-boot-echo/sample-spring-boot-echo_test.iml" group="sample-spring-boot-echo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink.iml" group="sample-spring-boot-kitchensink" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink_main.iml" group="sample-spring-boot-kitchensink" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-spring-boot-kitchensink/sample-spring-boot-kitchensink_test.iml" group="sample-spring-boot-kitchensink" />
     </modules>
